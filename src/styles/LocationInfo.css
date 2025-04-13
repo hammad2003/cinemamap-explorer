@@ -1,0 +1,114 @@
+.location-info {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.location-info.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-style: italic;
+  color: #666;
+  padding: 2rem;
+}
+
+.location-info.error {
+  color: #e74c3c;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.location-info.loading {
+  color: #3498db;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem;
+}
+
+.location-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.location-header h3 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.favorite-btn {
+  background: none;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.favorite-btn.add {
+  border-color: #f39c12;
+  color: #f39c12;
+}
+
+.favorite-btn.add:hover {
+  background-color: #f39c12;
+  color: white;
+}
+
+.favorite-btn.remove {
+  border-color: #e74c3c;
+  color: #e74c3c;
+}
+
+.favorite-btn.remove:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.location-image {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.location-coordinates {
+  background-color: #f8f9fa;
+  padding: 0.8rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.location-description {
+  margin-bottom: 1rem;
+}
+
+.location-description h4 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.wikipedia-info {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.wikipedia-link {
+  color: #3498db;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.wikipedia-link:hover {
+  text-decoration: underline;
+}
