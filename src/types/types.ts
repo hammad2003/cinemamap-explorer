@@ -1,4 +1,3 @@
-// ./types/types.ts
 export interface Movie {
   title: string;
   year: number;
